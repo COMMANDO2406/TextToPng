@@ -23,3 +23,8 @@ You can customize the script to suit your needs by modifying the input file name
 # Dependencies
 1. Python 3.x
 2. Pillow (Python Imaging Library)
+
+# To-do
+    1. Adding Base64 encryption
+    2. Customizable image size
+    3. More storage using RGB
