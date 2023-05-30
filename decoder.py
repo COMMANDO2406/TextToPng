@@ -4,7 +4,7 @@ try:
     img = Image.open('output_image.png')
 except FileNotFoundError:
     print("Error: File 'output_image.png' does not exist.")
-    exit(1)
+    input("Press Enter to exit...")
 
 width, height = img.size
 
