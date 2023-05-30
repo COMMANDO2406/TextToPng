@@ -5,7 +5,7 @@ try:
         test_str = file.read().replace('\n', '')
 except FileNotFoundError:
     print("Error: File 'data.txt' does not exist.")
-    exit(1)
+    input("Press Enter to exit...")
 
 print("The original string is : " + str(test_str))
 res = ''.join(format(ord(i), '08b') for i in test_str)
