@@ -1,6 +1,11 @@
 from PIL import Image
 
-img = Image.open('output_image.png')
+try:
+    img = Image.open('output_image.png')
+except FileNotFoundError:
+    print("Error: File 'output_image.png' does not exist.")
+    exit(1)
+
 width, height = img.size
 
 binary_str = []
@@ -25,3 +30,5 @@ print(binary_list)
 ascii_list = [int(i, 2) for i in binary_list]
 decoded_str = ''.join([chr(i) for i in ascii_list])
 print(decoded_str)
+
+input("Press Enter to exit...")
