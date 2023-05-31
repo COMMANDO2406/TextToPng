@@ -1,13 +1,7 @@
 from PIL import Image
 
-try:
-    with open('data.txt', 'r') as file:
-        test_str = file.read().replace('\n', '')
-except FileNotFoundError:
-    print("Error: File 'data.txt' does not exist.")
-    input("Press Enter to exit...")
+test_str = input("Enter the text to be converted: \n")
 
-print("The original string is : " + str(test_str))
 res = ''.join(format(ord(i), '08b') for i in test_str)
 print("The string after binary conversion : " + str(res))
 
