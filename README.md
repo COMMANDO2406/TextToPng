@@ -4,12 +4,10 @@ This Python script converts a given string into binary format and saves it as a 
 # How to Use
 Make sure you have PIL installed. You can install it using pip: pip install Pillow
 
-Save the input string in a text file named 'data.txt'
-
-Run the script. The output image will be saved as 'output_image.png' in the same directory as the script.
+Run the script and enter the string you would like to be converted. The output image will be saved as 'output_image.png' in the same directory as the script.
 
 # How it Works
-1. The script reads the input string from 'data.txt' and converts it to binary format using ASCII encoding.
+1. The script reads the input string and converts it to binary format using ASCII encoding.
 
 2. The binary data is converted into a list of pixels, with each pixel represented as a list of eight bits.
 
@@ -23,8 +21,3 @@ You can customize the script to suit your needs by modifying the input file name
 # Dependencies
 1. Python 3.x
 2. Pillow (Python Imaging Library)
-
-# To-do
-    1. Adding Base64 encryption
-    2. Customizable image size
-    3. More storage using RGB
