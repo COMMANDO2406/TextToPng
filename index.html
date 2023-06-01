@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoder and Decoder Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Encoder and Decoder Documentation</h1>
+        <nav>
+            <a href="https://github.com/COMMANDO2406/TextToPng">GitHub </a>
+            <a href="https://github.com/COMMANDO2406/TextToPng/releases">Releases </a>
+            <a href="https://github.com/COMMANDO2406/TextToPng/releases/latest">Download</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>
+                This documentation provides instructions and usage examples for the Encoder and Decoder apps.
+                The Encoder app converts a given string to binary representation and generates an image.
+                The Decoder app reverses this process to convert the binary image back to the original string.
+            </p>
+        </section>
+
+        <section>
+            <h2>Encoder</h2>
+            <p>
+                To use the Encoder app, download the latest release of the executable installer from the
+                <a href="https://github.com/COMMANDO2406/TextToPng/releases">Releases</a> page.
+            </p>
+            <h3>Installation Steps</h3>
+            <ol>
+                <li>Download the installer file from the latest releases page</li>
+                <img src="Screenshots/DownloadEncoder.png" alt="Encoder Step 1">
+                <li>Run the installer then click more info and then run anyway</li>
+                <img src="Screenshots/Run Anyway.png" alt="Encoder Step 2">
+                <li>Go through the installer</li>
+                <img src="Screenshots/Installer.png" alt="Encoder Step 3">
+                <li>Navigate to the app folde and run the main app</li>
+                <img src="Screenshots/runmain.png" alt="Encoder Step 3">
+                
+            </ol>
+            <h3>Usage:</h3>
+            <pre>Enter Text you would like to be converted</pre>
+            <img src="Screenshots/app.png" alt="Encoder Step 3">
+            <p>Output:</p>
+            <ul>
+                <li>Output for the above text: (rotated)</li>
+                <img src="Screenshots/output.png" alt="Encoder Step 3" style="
+                max-width: 500000px;
+                max-height: 500000px;
+                display: block;
+                margin: 20px auto;
+                ">
+
+                <li>A binary representation of the input string.</li>
+                <li>An image representing the binary string in the same folder.</li>
+            </ul>
+        </section>
+        
+
+        <section>
+            <h2>Decoder</h2>
+            <p>
+                To use the Decoder app, download the latest release of the executable installer from the
+                <a href="https://github.com/COMMANDO2406/TextToPng/releases/latest">Releases</a> page using the same method as mentioned in the Encoder section.
+            </p>
+            <p>Usage:</p>
+            <pre>Shift the output image to the same folder as the decoder and then run it to get the encoded message</pre>
+            <p>Output:</p>
+            <ul>
+                <li>The decoded string extracted from the image.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
