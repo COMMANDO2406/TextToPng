@@ -1,5 +1,6 @@
 # String to Image Converter
-Documentation: https://COMMANDO2406.github.io/TextToPng/
+Installer installation documentation: https://COMMANDO2406.github.io/TextToPng/
+Clone installation documentation: https://COMMANDO2406.github.io/TextToPng/pyinstalled.html
 
 This Python script converts a given string into binary format and saves it as a monochrome image using the Python Imaging Library (PIL). It could be useful for simple data encoding or image manipulation projects. This project was inspired by Infinite-Storage-Glitch by https://github.com/DvorakDwarf/Infinite-Storage-Glitch.
 
